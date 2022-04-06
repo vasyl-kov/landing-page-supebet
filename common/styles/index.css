@@ -1,0 +1,138 @@
+body {
+    font-family: "Superbet Sans";
+    font-weight: 400;
+    font-size: 14px;
+    background: #FD0104;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.inner-wrapper {
+    max-width: 1106px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: 88px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.logo-link {
+    width: 100%;
+}
+
+.logo-icon {
+    width: 282px;
+    height: 50px;
+}
+
+.hover:hover {
+    opacity: .75;
+}
+
+.user-wrapper {
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+
+.btn {
+    width: 256px;
+    color: #FFFFFF;
+    background: #700042;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    height: 44px;
+}
+
+.log-btn {
+    margin-right: 29px;
+}
+
+.reg-btn {
+    background: #FFFFFF;
+    color: #700042;
+    margin-left: 29px;
+}
+
+.cta-wrapper {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.cta-heading {
+    width: 623px;
+    margin-top: 138px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+.cta-content {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: none;
+    margin-top: 40px;
+    margin-right: 160px;
+}
+
+.cta-button {
+    width: 363px;
+    height: 68px;
+    align-items: center;
+    justify-content: center;
+    background: #700042;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin-top: 85px;
+}
+
+.promo-code {
+    flex-direction: column;
+    width: 521px;
+}
+
+.promo-text-up {
+    margin-bottom: 10px;
+}
+
+.promo-image {
+    width: 17%;
+    height: 110px;
+    margin-right: 5px;
+}
+
+.promo-image:last-child {
+    margin-right: 0;
+}
