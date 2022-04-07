@@ -78,13 +78,15 @@ a {
     justify-content: space-between;
     flex: 1;
     align-items: center;
+    padding-top: 66px;
+    padding-bottom: 130px;
 }
 
 .cta-heading {
     width: 623px;
-    margin-top: 138px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 34px;
 }
 
 .h1 {
@@ -124,7 +126,7 @@ a {
 }
 
 .promo-text-up {
-    margin-bottom: 10px;
+    margin-bottom: 34px;
 }
 
 .promo-image {
@@ -133,6 +135,71 @@ a {
     margin-right: 5px;
 }
 
+.relative {
+    position: relative;
+    bottom: 20px;
+}
+
+.letter {
+    width: 46px;
+}
+
 .promo-image:last-child {
     margin-right: 0;
+}
+
+.coupon-block {
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupon-btn {
+    width: 70px;
+    height: 42px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23.871px;
+    line-height: 37px;
+    /* identical to box height, or 155% */
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    transform: rotate(-90deg);
+    background: #FBA417;
+}
+
+.coupon-code {
+    height: 70px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31.0322px;
+    line-height: 37px;
+    /* identical to box height, or 119% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    align-items: center;
+    right: 14px;
+    bottom: 0;
+    padding: 0 10px;
+}
+
+.steps-wrapper {
+    flex-direction: row;
+}
+
+.step {
+    width: 363px;
+    height: 131px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #700042;
 }
