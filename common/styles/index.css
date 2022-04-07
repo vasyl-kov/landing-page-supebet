@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Superbet Sans";
+    src: url('../fonts/1632989055_superbetsans-black.woff') format('woff'), url('../fonts/1632989055_superbetsans-bold.woff') format('woff'), url('../fonts/1632989055_superbetsans-regular.woff') format('woff');
+}
+
 body {
     font-family: "Superbet Sans";
     font-weight: 400;
@@ -238,3 +243,5 @@ a {
     line-height: 25px;
     text-transform: lowercase;
 }
+
+@media screen and (max-width: 768px) {}
